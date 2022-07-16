@@ -1,0 +1,21 @@
+{
+    "name": "sitybr/course-finder",
+    "description": "Project to search Alura website's courses",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sitybr\\CourseFinder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Ayala",
+            "email": "websity0@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^6.1",
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/css-selector": "^6.1"
+    }
+}
